@@ -1,0 +1,98 @@
+﻿body {
+    height:100%;
+}
+
+.masterHead{
+    height:100px;
+    background:radial-gradient(cadetblue , aliceblue ,aliceblue);
+    color:black;
+}
+
+.masterMenu{
+    height:50px;
+    background-color:cadetblue;
+   
+}
+
+.masterBody{
+    
+    
+}
+.masterLeftBody{
+    height:550px;
+    border-right:10px solid cadetblue;
+}
+.masterRightBody{
+
+}
+.masterFooter{
+   height:30px;
+   background-color:cadetblue;
+   color:aliceblue;
+}
+
+fieldset{
+    display:block;
+    margin: 5px 2px 0px 0px;
+    padding:0.35em 0.625em 0.75em 0.75em;
+    border:2px groove;
+}
+
+.btnStyle{
+    border-radius:5px;
+    height:35px;
+    width:200px;
+    background:linear-gradient(cadetblue,aliceblue);
+    color:black;
+}
+.inputStyle{
+     background-color:aliceblue;
+     border-radius:3px;
+     height:30px;
+     width:250px;
+}
+.inputDobStyle{
+     background-color:aliceblue;
+     border-radius:3px;
+     height:30px;
+     width:100px;
+}
+sup{
+    color:red;
+ 
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    font-size:16px;
+}
+.searchBtn{
+    height:40px;
+    width:200px;
+    border-radius:5px;
+}
+
+
+.modal
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    position:absolute;
+    z-index: 999;
+}
+.loading
+{
+  position:absolute;
+    padding: 150px 300px;
+    
+}
+.loading img
+{
+    height: 250px;
+    width: 250px;
+}

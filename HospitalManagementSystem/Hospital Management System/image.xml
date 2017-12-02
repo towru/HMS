@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>Images\Add Patient.png</ImageUrl>
+    <NavigateUrl>HmsAllPages\EnrollPatient.aspx</NavigateUrl>
+    <AlternateText>Add Patient</AlternateText>
+    <Text>ADD PATIENT INFORMATION</Text>
+    <Impressions>5000</Impressions>
+  </Ad>
+<Ad>
+    <ImageUrl>Images\AddPhysican.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>Add Patient</AlternateText>
+    <Impressions>5000</Impressions>
+  </Ad>
+<Ad>
+    <ImageUrl>Images\View Patient History.jpg</ImageUrl>
+    <NavigateUrl>HmsAllPages\ViewPatientHistory.aspx</NavigateUrl>
+    <AlternateText>Add Patient</AlternateText>
+    <Impressions>5000</Impressions>
+  </Ad>
+</Advertisements>

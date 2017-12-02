@@ -1,0 +1,55 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="calenderControl.ascx.cs" Inherits="Hospital_Management_System.calenderControl" %>
+ <asp:DropDownList ID="DropDownListDay" runat="server" CssClass="inputDobStyle">
+     <asp:ListItem>Day</asp:ListItem>
+      <asp:ListItem>01</asp:ListItem>
+      <asp:ListItem>02</asp:ListItem>
+      <asp:ListItem>03</asp:ListItem>
+      <asp:ListItem>04</asp:ListItem>
+      <asp:ListItem>05</asp:ListItem>
+      <asp:ListItem>06</asp:ListItem>
+      <asp:ListItem>07</asp:ListItem>
+      <asp:ListItem>08</asp:ListItem>
+      <asp:ListItem>09</asp:ListItem>
+      <asp:ListItem>10</asp:ListItem>
+      <asp:ListItem>11</asp:ListItem>
+      <asp:ListItem>12</asp:ListItem>
+      <asp:ListItem>13</asp:ListItem>
+	  <asp:ListItem>14</asp:ListItem>
+	  <asp:ListItem>15</asp:ListItem>
+	  <asp:ListItem>16</asp:ListItem>
+	  <asp:ListItem>17</asp:ListItem>
+	  <asp:ListItem>18</asp:ListItem>
+	  <asp:ListItem>19</asp:ListItem>
+	  <asp:ListItem>20</asp:ListItem>
+</asp:DropDownList>
+<asp:DropDownList ID="DropDownListMonth" runat="server" CssClass="inputDobStyle">
+     <asp:ListItem>Month</asp:ListItem>
+     <asp:ListItem>01</asp:ListItem>
+      <asp:ListItem>02</asp:ListItem>
+      <asp:ListItem>03</asp:ListItem>
+      <asp:ListItem>04</asp:ListItem>
+      <asp:ListItem>05</asp:ListItem>
+      <asp:ListItem>06</asp:ListItem>
+      <asp:ListItem>07</asp:ListItem>
+      <asp:ListItem>08</asp:ListItem>
+      <asp:ListItem>09</asp:ListItem>
+      <asp:ListItem>10</asp:ListItem>
+      <asp:ListItem>11</asp:ListItem>
+      <asp:ListItem>12</asp:ListItem>
+      <asp:ListItem>13</asp:ListItem>
+	  <asp:ListItem>14</asp:ListItem>
+	  <asp:ListItem>15</asp:ListItem>
+	  <asp:ListItem>16</asp:ListItem>
+	  <asp:ListItem>17</asp:ListItem>
+	  <asp:ListItem>18</asp:ListItem>
+	  <asp:ListItem>19</asp:ListItem>
+	  <asp:ListItem>20</asp:ListItem>
+</asp:DropDownList>
+<asp:DropDownList ID="DropDownListYear" runat="server" CssClass="inputDobStyle">
+     <asp:ListItem>Year</asp:ListItem>
+     <asp:ListItem>2017</asp:ListItem>
+     <asp:ListItem>2016</asp:ListItem>
+     <asp:ListItem>2015</asp:ListItem>
+     <asp:ListItem>2014</asp:ListItem>
+     <asp:ListItem>2013</asp:ListItem>
+</asp:DropDownList>

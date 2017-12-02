@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HmsMasterPage.master.cs" Inherits="Hospital_Management_System.HmsMasterPage" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Hospital Management System</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/MasterPageStyle.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <form id="formHms" runat="server">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <%--header--%>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 masterHead" align="center">
+                        <h1>Hospital Management System</h1>
+                       
+                    </div>
+                    <%--menu--%>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 masterMenu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="Welcome.aspx">Home</a></li> 
+                            <li><a href="EnrollPatient.aspx">Patient Information</a></li>                      
+                           <li><a href="ViewPatientHistory.aspx">View Patient Information</a></li>
+                           <li><a href="AddPhysican.aspx">Physician Information</a></li>
+                            <li><a href="ViewPhysician.aspx">View Physician Information</a></li>
+                        </ul>
+                    </div>
+                    <%--body--%>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 masterBody">
+                        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 masterLeftBody">
+                            <asp:ContentPlaceHolder ID="menuContent" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 masterRightBody">
+                         <asp:ContentPlaceHolder ID="ContentPlaceHolderBody" runat="server">
+        
+                          </asp:ContentPlaceHolder>
+                            </div>
+                    </div>
+                    <%--footer--%>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 masterFooter" align="center">
+                        <p>@Copyright:2017- Atik</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    <div>
+       
+    </div>
+    </form>
+</body>
+</html>
